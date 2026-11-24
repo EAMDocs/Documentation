@@ -1,0 +1,19 @@
+{
+  "name": "nuvision-userguide",
+  "version": "1.0.0",
+  "description": "PEMVISH NuVision User Manual - interactive Markdown documentation site with a local Node.js server and real-time docs enumeration API.",
+  "private": true,
+  "type": "commonjs",
+  "main": "serve.js",
+  "scripts": {
+    "start": "node serve.js",
+    "serve": "node serve.js",
+    "generate-manifest": "node scripts/generate_docs_manifest.js",
+    "populate": "node scripts/populate_markdown_files.js",
+    "test": "node --test --test-concurrency=1 tests/"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "UNLICENSED"
+}
