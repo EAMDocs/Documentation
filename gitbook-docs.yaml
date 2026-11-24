@@ -1,0 +1,111 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+version: 1
+site:
+  title: NuVision User Manual
+  structure:
+    - type: section
+      key: section-introduction
+      title: Introduction
+      path: introduction
+      default: true
+      children:
+        - type: space
+          key: space-platform-overview
+          title: Platform Overview
+          path: platform-overview
+          default: true
+          content:
+            directory: ./docs/introduction/platform-overview
+        - type: space
+          key: space-getting-started
+          title: Getting Started
+          path: getting-started
+          content:
+            directory: ./docs/introduction/getting-started
+
+    - type: section
+      key: section-modules
+      title: Modules
+      path: modules
+      children:
+        - type: space
+          key: space-enterprise-architecture
+          title: Enterprise Architecture Management
+          path: enterprise-architecture
+          default: true
+          content:
+            directory: ./docs/modules/enterprise-architecture
+        - type: space
+          key: space-application-portfolio
+          title: Application Portfolio Management
+          path: application-portfolio
+          content:
+            directory: ./docs/modules/application-portfolio
+        - type: space
+          key: space-it-asset-management
+          title: IT Asset Management
+          path: it-asset-management
+          content:
+            directory: ./docs/modules/it-asset-management
+        - type: space
+          key: space-risk-and-obsolescence
+          title: Technology Risk and Obsolescence Management
+          path: risk-and-obsolescence
+          content:
+            directory: ./docs/modules/risk-and-obsolescence
+        - type: space
+          key: space-business-portfolio
+          title: Business Portfolio and Roadmap Planning
+          path: business-portfolio
+          content:
+            directory: ./docs/modules/business-portfolio
+        - type: space
+          key: space-vendor-portfolio
+          title: Vendor Portfolio Management
+          path: vendor-portfolio
+          content:
+            directory: ./docs/modules/vendor-portfolio
+
+    - type: section
+      key: section-configuration
+      title: Configuration and Administration
+      path: configuration
+      children:
+        - type: space
+          key: space-integrations
+          title: Integrations and Connectors
+          path: integrations
+          default: true
+          content:
+            directory: ./docs/configuration/integrations
+        - type: space
+          key: space-administration
+          title: Administration
+          path: administration
+          content:
+            directory: ./docs/configuration/administration
+        - type: space
+          key: space-reports-and-dashboards
+          title: Reports and Dashboards
+          path: reports-and-dashboards
+          content:
+            directory: ./docs/configuration/reports-and-dashboards
+
+    - type: section
+      key: section-help
+      title: Help and Reference
+      path: help
+      children:
+        - type: space
+          key: space-support-and-troubleshooting
+          title: Support and Troubleshooting
+          path: support-and-troubleshooting
+          default: true
+          content:
+            directory: ./docs/help/support-and-troubleshooting
+        - type: space
+          key: space-glossary
+          title: Glossary
+          path: glossary
+          content:
+            directory: ./docs/help/glossary
