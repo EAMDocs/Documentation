@@ -1,5 +1,4 @@
 $schema: https://api.gitbook.com/gitbook-docs.yaml
-version: 1
 site:
   title: NuVision User Manual
   structure:
@@ -22,7 +21,6 @@ site:
           path: getting-started
           content:
             directory: ./docs/introduction/getting-started
-
     - type: section
       key: section-modules
       title: Modules
@@ -65,7 +63,6 @@ site:
           path: vendor-portfolio
           content:
             directory: ./docs/modules/vendor-portfolio
-
     - type: section
       key: section-configuration
       title: Configuration and Administration
@@ -90,7 +87,6 @@ site:
           path: reports-and-dashboards
           content:
             directory: ./docs/configuration/reports-and-dashboards
-
     - type: section
       key: section-help
       title: Help and Reference
